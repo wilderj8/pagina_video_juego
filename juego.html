@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/wilder.png">
-    <link type= "text/css" rel="stylesheet" href="/css/estilo.css">
-    <script type="text/javascript" scr="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Tragamonedas</title>
 </head>
 <body>
@@ -22,17 +21,17 @@
 
     <section id = "ventanas">
         <div id = "Multiplicadores">
-            <div id = "tirar">Tirar</div>
-            <div id = "x5">x5</div>
-            <div id = "x10">x10</div>
-            <div id = "x50">x50</div>
-            <div id = "x100">x100</div>
-            <div id = "x500">x500</div>
-            <div id = "x1000">x1000</div>
+            <button id = "tirar">Tirar</button>
+            <button id = "x5">x5</button>
+            <button id = "x10">x10</button>
+            <button id = "x50">x50</button>
+            <button id = "x100">x100</button>
+            <button id = "x500">x500</button>
+            <button id = "all_in">All IN</button>
         </div>
         <div id = "apostar">
-            <div id = "montoApostar">Apostar</div>
-            <input id = "monto" type="text">0
+            <div id = "montoApostar">Apostar $:</div>
+            <div id = "monto"></div>
             <div id = "saldo">Saldo:</div>
             <div id = "$">$</div>
             <div id = "cantidadsaldo"></div>
@@ -57,7 +56,7 @@
     </section>
     <div id = "velo">
         <div id = "cuadro_mensaje">
-            <img id = "cruz" src="">
+            <img id = "cruz" src="/img/equis.png">
             <div id = "mensaje">
             </div>
     </div>
@@ -65,5 +64,6 @@
         <table></table>
     </div>
     <audio id = "sonido" src=""></audio>
+    <script src="js/script.js"></script>
 </body>
 </html>
