@@ -3,16 +3,32 @@ img{
     vertical-align: top;
 }
 
+div{
+    color: #fff;
+}
+
 body{
-    font-family:cursive;    
+    /*margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    */
+    background: #1a0321;
+    font-family:consolas;
     margin: auto;
-    width: 550px;
+    /*width: 600px;*/
+    /*
+    font-family:cursive; 
+    */  
 }
 
 #linea1{
     display: flex;
     align-items: center;
     margin: 10px 0 0 19px;
+    color: #fff;
 }
 
 #credito{
@@ -22,7 +38,7 @@ body{
 
 #dinero{
     font-size: 5em;
-    line-height: 70px;
+    line-height: 70px;    
 }
 
 #euro{
@@ -30,6 +46,20 @@ body{
 }
 
 #tirar{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+    /*height: 50px;;*/    
+    
+
+    /*
     width: 180px;
     height: 180px;
     background-color: #fff0c9;
@@ -46,7 +76,7 @@ body{
     right: 0;
     left: 0;
     margin: auto;
-    top: 30px;
+    top: 30px;*/
 }
 
 header{
@@ -56,11 +86,11 @@ header{
 
 #ventanas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 .ventana{
-    width: 195px;
+    width: 195px;        
 }
 
 .imagen{
@@ -80,12 +110,140 @@ header{
     margin-top: 12px;
     cursor: pointer;
     user-select: none;
-    -moz-user-select: none;
+    -moz-user-select: none;    
+}
+
+#x5{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;    
+    /*top: 25px;
+    left: 50px;*/
+
+}
+
+#x5:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
+}
+
+#x10{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;   
+    
+}
+
+#x10:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
+}
+
+#x50{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;            
+}
+
+#x50:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
+}
+
+#x100{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+    
+    
+    
+}
+
+#x100:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
+}
+
+#x500{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+    
+  
+}
+
+#x500:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
+}
+
+#x1000{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;    
+    
+}
+
+#x1000:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s; 
 }
 
 #tirar:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;    
+    /*
     background-color: white;
-    box-shadow: 0 0 13px crimson inset;
+    box-shadow: 0 0 13px crimson inset;*/
 }
 
 #monedas img{
@@ -136,4 +294,11 @@ header{
 
 #mensaje img{
     width: 35px;
+}
+
+#titulo{
+    color: #fff;
+    letter-spacing: 4px;
+    width: 800px;
+        
 }
