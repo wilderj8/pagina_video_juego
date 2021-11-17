@@ -18,7 +18,7 @@ document.getElementById("x100").onclick=apostarx100;
 document.getElementById("x500").onclick=apostarx500;
 document.getElementById("all_in").onclick=apostar_allin;
 document.getElementById("terminar").onclick=terminarjuego;
-mensaje_mostrar = "Bienvenido no olvide primero ingresar su nombre"
+mensaje_mostrar = "Bienvenido a Space-Money, no olvide primero ingresar su nombre"
 sonar("/audios/intro.mp3")
 mensaje(mensaje_mostrar)
 terminar = false;
@@ -126,13 +126,13 @@ function apostar_allin(){
 function terminarjuego(){
     var jugador = document.getElementById("usuario").value;
     document.getElementById("sonido").loop = false;
-    if(montomax > 1000){
+    if(montomax > 2000){
         mensaje_mostrar = `El monto maximo alcanzado fue de $${montomax}, felicitaciones ${jugador}`;
         mensaje(mensaje_mostrar);
         sonar("/audios/victoria.mp3")
     }
     else{
-        mensaje_mostrar = `Que mierda haces solo $${montomax} de monto máximo, horrible ${jugador}`;
+        mensaje_mostrar = `Que decepción ${jugador} solo lograste acumular $${montomax} de monto máximo`;
         mensaje(mensaje_mostrar);
         sonar("/audios/derrota.mp3")
     }

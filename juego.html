@@ -9,60 +9,125 @@
     <title>Tragamonedas</title>
 </head>
 <body>
-    <header>
-        <div id = "titulo">
-            <h1>Bienvenido Jugador</h1>
-        </div>
-        <div id = "linea1">
-            <div id = "nombre">Nombre:</div>
-            <input id = "usuario" type="text">
-        </div>
-    </header>
-
-    <section id = "ventanas">
-        <div id = "Multiplicadores">
-            <button id = "tirar">Tirar</button>
-            <button id = "x5">x5</button>
-            <button id = "x10">x10</button>
-            <button id = "x50">x50</button>
-            <button id = "x100">x100</button>
-            <button id = "x500">x500</button>
-            <button id = "all_in">All IN</button>
-            <button id = "terminar">Terminar Juego</button>
-        </div>
-        <div id = "apostar">
-            <div id = "montoApostar">Apostar $:</div>
-            <div id = "monto"></div>
-            <div id = "saldo">Saldo:</div>
-            <div id = "$">$</div>
-            <div id = "cantidadsaldo"></div>
-            <div></div>
-        </div>
-        <div class = "ventana">
-            <div class = "imagen">
-                <img src="/img/wilder.png">
+    <div class = contenido>
+        <header class = "encabezado">
+            <div id = "titulo">
+                <h1>Space-Money</h1>
+            </div>
+            <div id = "titulo">
+                <div id = linea1>
+                    <div class = t2-columnas>
+                        <div id = "nombre">Nombre:</div>
+                    </div>
+                    <div class = t2-columnas>
+                        <input id = "usuario" type="text">
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class = "contenedor">
+            <div class = "ventana">
+                <div class = "imagen">
+                    <img class = "foto" src="/img/wilder.png" >
+                </div>
+            </div>
+            <div class = "ventana">
+                <div class = "imagen">
+                    <img class = "foto" src="/img/wilder.png">
+                </div>
+            </div>
+            <div class = "ventana">
+                <div class = "imagen">
+                    <img class = "foto" src="/img/wilder.png">
+                </div>
             </div>
         </div>
-        <div class = "ventana">
-            <div class = "imagen">
-                <img src="/img/wilder.png">
+    
+        <div class = "contenedor">
+            <div class = "t3-columnas">
+                <div class = "t3-filas">
+                    <div id = "x5">5</div>
+                </div>
+                <div class = "t3-filas">
+                    <div id = "x50">50</div>
+                </div>
+                <div class = "t3-filas">
+                    <div id = "x500">500</div>
+                </div>
+            </div>
+            <div class = "t3-columnas">
+                <div id = "tirar">Tirar</div>
+            </div>
+            <div class = "t3-columnas">
+                <div class = "t3-filas">
+                    <div id = "x10">10</div>
+                </div>
+                <div class = "t3-filas">
+                    <div id = "x100">100</div>
+                </div>
+                <div class = "t3-filas">
+                    <div id = "all_in">All IN</div>
+                </div>
             </div>
         </div>
-        <div class = "ventana">
-            <div class = "imagen">
-                <img src="/img/wilder.png">
+    
+        <div class = "contenedor">
+            <div class ="t3-columnas">
+                <div id = linea1>
+                    <div class = t2-columnas>
+                        <div id = "saldo">Saldo</div>
+                    </div>
+                    <div class = t2-columnas>
+                        <div id = linea1>
+                            <div id = "saldo">$</div>
+                            <div id = "cantidadsaldo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class ="t3-columnas">
+                <div id = linea1>
+                    <div class = t2-columnas>
+                        <div id = "montoApostar">Apuesta</div>
+                    </div>
+                    <div class = t2-columnas>
+                        <div id = linea1>
+                            <div id = "montoApostar">$</div>
+                            <div id = "monto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class ="t3-columnas">
+                <button id = "terminar">Terminar Juego</button>
             </div>
         </div>
-
-    </section>
-    <div id = "velo">
-        <div id = "cuadro_mensaje">
-            <img id = "cruz" src="/img/equis.png">
-            <div id = "mensaje">
+    
+        <footer class = "contenedor">
+            <div class = "t3-columnas">
+                <div>Santiago Muñoz González</div>
+                <div>Correo: tiagomg1993@gmail.com</div>
+                <div>Encargado Javascript</div>
             </div>
-    </div>
-    <div id = "ranking">
-        <table></table>
+            <div class = "t3-columnas">
+                <div>Santiago Monsalve Ospina</div>
+                <div>Correo: santimonsalveo@gmail.com</div>
+                <div>Encargado de Html</div>
+            </div>
+            <div class = "t3-columnas">
+                <div>Wilder Jhoan Álvarez Acevedo</div>
+                <div>Correo: wilderjhoan8@gmail.com</div>
+                <div>Encargado del CSS</div>
+            </div>
+        </footer>
+    
+        <div id = "velo">
+            <div id = "cuadro_mensaje">
+                <img id = "cruz" src="/img/equis.png">
+                <div id = "mensaje">
+                </div>
+        </div>
     </div>
     <audio id = "sonido" src=""></audio>
     <script src="js/script.js"></script>

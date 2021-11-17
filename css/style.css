@@ -1,103 +1,295 @@
-img{
-    max-width: 100%;
-    vertical-align: top;
-}
-
 body{
-    font-family:cursive;    
+    background: #1a0321;
+    font-family:consolas;
     margin: auto;
-    width: 550px;
 }
 
-#linea1{
-    display: flex;
-    align-items: center;
-    margin: 10px 0 0 19px;
-}
-
-#credito{
-    color: orange;
-    font-size: 1.5em;
-}
-
-#dinero{
-    font-size: 5em;
-    line-height: 70px;
-}
-
-#euro{
-    font-size: 1.4em;
-}
-
-#tirar{
-    width: 180px;
-    height: 180px;
-    background-color: #fff0c9;
-    border-radius: 50%;
-    border: 6px solid crimson;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4em;
-    box-shadow: 0 0 13px black inset;
-    user-select: none;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: auto;
-    top: 30px;
+div{
+    color: #fff;
 }
 
 header{
     position: relative;    
-    height: 195px;
+    height: auto;
 }
 
-#ventanas{
+h1{
+    text-align: center;
+}
+.contenido{
+    width:60%;
+    height: auto;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.encabezado{
+    margin: 1%;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+}
+
+
+#titulo{
+    color: #fff;
+    letter-spacing: 4px;
+    width: 50%;
+    align-items:center;
+
+}
+
+#linea1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    vertical-align: middle;
+    -moz-box-align: center;
+    text-align-last: center;
+    -ms-text-combine-horizontal: center;
+}
+
+.t2-columnas{
+    width: 66.6%;
+    height: auto;
+    margin: 0.5%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#nombre{
+
+}
+
+#usuario{
+
+}
+
+.contenedor{
+    margin: 1%;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .ventana{
-    width: 195px;
+    width: 33.3%;
+    height: 100%;
+    margin: 0.2%;
+    align-items: center;
+    align-content: center;
 }
 
 .imagen{
-    border: 4px solid crimson;
+    border: 5px solid crimson;
     border-radius: 10px;
-    padding: 30px;
+    align-items: center;
+    align-self: center;
+    height: 250px;
+    width: auto;
 }
 
-.boton{
-    border: 4px solid crimson;
-    border-radius: 10px;
+.foto{
+    height: 100%;
+    width: 100%;
+}
+
+.t3-columnas{
+    width: 33.3%;
+    height: auto;
+    margin: 0.5%;
     text-align: center;
-    line-height: 55px;
-    font-size: 1.2em;
-    background-color: #fff0c9;
-    box-shadow: 0 0 10px black inset;
-    margin-top: 12px;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.t3-filas{
+    width: auto;
+    height: 33.3%;
+    margin: 1%;
+    text-align: center;
+}
+
+
+#x5{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
     cursor: pointer;
-    user-select: none;
-    -moz-user-select: none;
+}
+
+#x5:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
+}
+
+#x50{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;            
+}
+
+#x50:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
+}
+
+#x500{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer; 
+}
+
+#x500:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
+}
+
+#tirar{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 #tirar:hover{
-    background-color: white;
-    box-shadow: 0 0 13px crimson inset;
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s;    
 }
 
-#monedas img{
-    width: 30px;
+#x10{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;   
 }
 
-#monedas{
-    margin: 10px 0 0 19px;
+#x10:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
 }
 
-#mensaje img{
-    width: 30px;
+#x100{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#x100:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
+}
+
+#all_in{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;    
+    
+}
+
+#all_in:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0s; 
+}
+
+.t2-columnas{
+    width: 50%;
+    height: auto;
+    margin: 0.5%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#saldo{
+    text-align: center;
+}
+
+#catidadsaldo{
+    text-align: center;
+}
+
+#montoApostar{
+    text-align: center;
+}
+
+#monto{
+    text-align: center;
+}
+
+#terminar{
+
 }
 
 #velo{
@@ -105,36 +297,33 @@ header{
     background-color: rgba(255, 255, 255, 0.6);
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 61%;
     display: none;
     align-items: center;
-    text-align: center;
+    align-self: center;
     justify-content: center;
-}
-
-#cruz{
-    width: 30px;
-    top: 5px;
-    right: 5px;
-    position: absolute;
-    cursor: pointer;
 }
 
 #cuadro_mensaje{
     border: 5px solid crimson;
-    width: 500px;
-    border-radius: 12px;
+    width: auto;
+    border-radius: 10px;
     position: relative;
-    height: 100px;
+    height: auto;
     background-color: white;
 }
 
-#mensaje{
-    font-size: 1.6em;
-    color: crimson;
-    text-align: center;
+#cruz{
+    width: 7%;
+    top: 2%;
+    right: 2%;
+    position: absolute;
+    cursor: pointer;
 }
 
-#mensaje img{
-    width: 35px;
+#mensaje{
+    font-size: auto;
+    color: crimson;
+    text-align: center;
+    padding: 12%;
 }
