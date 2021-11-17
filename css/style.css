@@ -95,7 +95,7 @@ h1{
 }
 
 .imagen{
-    border: 5px solid crimson;
+    border: 5px solid #a945c7;
     border-radius: 10px;
     align-items: center;
     align-self: center;
@@ -185,16 +185,22 @@ h1{
 }
 
 #tirar{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fff;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    background-color:#1a0321;
+    border-radius: 50%;
+    border: 6px solid #a945c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    box-shadow: 0 0 13px black inset;
+    user-select: none;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 30px;
+
 }
 
 #tirar:hover{
@@ -305,7 +311,7 @@ h1{
 }
 
 #cuadro_mensaje{
-    border: 5px solid crimson;
+    border: 5px solid #a945c7;
     width: auto;
     border-radius: 10px;
     position: relative;
@@ -323,7 +329,7 @@ h1{
 
 #mensaje{
     font-size: auto;
-    color: crimson;
+    color: #a945c7;
     text-align: center;
     padding: 12%;
 }
